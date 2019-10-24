@@ -1,0 +1,112 @@
+
+.slicknav_menu {
+    display: none;
+}
+
+/* lg */
+@media (min-width: 1200px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+    section.banner .banner-text h1{
+        font-size: 30px;
+    }
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .slicknav_menu {
+        display: block;
+        padding: 0;
+    }
+    .main-menu{
+        display: none;
+    }
+
+    section.banner .banner-text h1{
+        font-size: 30px;
+    }
+    .sub-menu .menu-item-has-children> a:after,
+    .menu-item-has-children> a:after{
+        display: none;
+    }
+    .single-product-thumb,
+    .portfolio-content .portfolio-thumb,
+    .comment-form{
+        margin-bottom: 30px;
+    }
+    .comment-form .name input[type="text"]{
+        margin-bottom: 15px;
+    }
+
+
+
+}
+
+/* xs */
+@media (max-width: 767px) {
+
+    .slicknav_menu {
+        display: block;
+        padding: 0;
+    }
+    .main-menu{
+        display: none;
+    }
+    section.banner .banner-text h1{
+        font-size: 30px;
+    }
+    footer.footer .footer-top .btn-let-us-know{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .sub-menu .menu-item-has-children> a:after,
+    .menu-item-has-children> a:after{
+        display: none;
+    }
+    .single-product-thumb,
+    .portfolio-content .portfolio-thumb,
+    .comment-form{
+        margin-bottom: 30px;
+    }
+    .comment-form .name input[type="text"]{
+        margin-bottom: 15px;
+    }
+    section.portfolio .portfolioFilter a{
+        padding: 4px 14px;
+    }
+
+
+
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+    section.banner .banner-text h1{
+        font-size: 30px;
+    }
+    footer.footer .footer-top .btn-let-us-know{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .sub-menu .menu-item-has-children> a:after,
+    .menu-item-has-children> a:after{
+        display: none;
+    }
+    .single-product-thumb,
+    .portfolio-content .portfolio-thumb,
+    .comment-form{
+        margin-bottom: 30px;
+    }
+    .comment-form .name input[type="text"]{
+        margin-bottom: 15px;
+    }
+    section.portfolio .portfolioFilter a{
+        padding: 4px 14px;
+    }
+
+
+}
